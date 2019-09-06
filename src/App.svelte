@@ -11,7 +11,7 @@
 
 <style>
   :root{
-    --sv-swipe-panel-height: 100px;
+    --sv-swipe-panel-height: 90%;
     /* --sv-swipe-indicator-active-color:grey; */
   }
   .is-center{
@@ -25,19 +25,19 @@
 
 <Swipe showIndicators={true} autoplay={play_slider} delay={play_delay}>
   <div class="swipeable-item is-center">
-    <h1>Boo yeaah</h1>
+    <img src="https://source.unsplash.com/user/erondu/1600x900" alt="">
   </div>
 
   <div class="swipeable-item is-center">
-    <h1>Nope :(</h1>
+    <img src="https://source.unsplash.com/user/erondu/1600x900" alt="">
   </div>
 
   <div class="swipeable-item is-center">
-    <h1>Oops!</h1>
+    <img src="https://source.unsplash.com/user/erondu/1600x900" alt="">
   </div>
 
   <div class="swipeable-item is-center">
-    <h1>Ouch!!!</h1>
+    <img src="https://source.unsplash.com/user/erondu/1600x900" alt="">
   </div>
 </Swipe>
 
