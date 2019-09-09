@@ -1,6 +1,6 @@
 <script>
-  import Swipe from "svelte-swipe";
-  let play_slider = false;
+  import { Swipe, SwipeItem } from "svelte-swipe";
+  let play_slider = true;
   let play_delay = 1000;
   
   function toggle(){
@@ -24,21 +24,21 @@
 </style>
 
 <Swipe showIndicators={true} autoplay={play_slider} delay={play_delay}>
-  <div class="swipeable-item is-center">
+  <SwipeItem classes="is-center">
     <img src="https://source.unsplash.com/user/erondu/1600x900" alt="">
-  </div>
+  </SwipeItem>
 
-  <div class="swipeable-item is-center">
+  <SwipeItem classes="is-center">
     <img src="https://source.unsplash.com/user/erondu/1600x900" alt="">
-  </div>
+  </SwipeItem>
 
-  <div class="swipeable-item is-center">
+  <SwipeItem classes="is-center">
     <img src="https://source.unsplash.com/user/erondu/1600x900" alt="">
-  </div>
+  </SwipeItem>
 
-  <div class="swipeable-item is-center">
+  <SwipeItem classes="is-center">
     <img src="https://source.unsplash.com/user/erondu/1600x900" alt="">
-  </div>
+  </SwipeItem>
 </Swipe>
 
 <div style="margin-top: 100px">
